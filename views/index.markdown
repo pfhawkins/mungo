@@ -18,3 +18,8 @@ Returns:
 ### ascii characters
 
 If you pass mungo "all", mungo will give you characters 1-255 worth of ascii.
+
+## Command-line Friendly
+
+No fancy HTML is returned, so e.g. curling a mungo URL will give you usable results
+in the terminal.
