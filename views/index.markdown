@@ -2,7 +2,7 @@
 
 Mungo munges URLS and gives you strings. 
 
-### Number then String
+## Number then String
 
 If you pass mungo a number, *x*, then a string, mungo will multiply that string *x*
 times.
@@ -15,7 +15,7 @@ Returns:
 
 <pre>hawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawkhawk</pre>
 
-### ascii characters
+## ascii characters
 
 If you pass mungo "all", mungo will give you characters 1-255 worth of ascii.
 
