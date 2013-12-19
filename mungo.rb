@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do
-  'This should eventually be a usage page'
+  haml :index, :format => :html5
 end
 
 get '/all' do
