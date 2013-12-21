@@ -4,6 +4,7 @@ gem "sinatra"
 gem "thin"
 gem "kramdown"
 gem "haml"
+gem "unicorn"
 
 group :dev do
   gem 'shotgun'
