@@ -1,7 +1,8 @@
 require 'sinatra'
+set :public_folder, Proc.new { File.join(root) }
 
 get '/' do
-  haml :index, :format => :html5
+  send_file File.join(settings.public_folder, 'index.html')
 end
 
 get '/all' do
