@@ -314,6 +314,22 @@ sup {
 
 <p>Mungo munges URLS and gives you strings.</p>
 
+<h3>Counterstring</h3>
+
+<p>If you pass mungo an integer, mungo will give you a special string called a "counterstring" that you can use to test the length of a field.</p>
+
+<p>Each number in a counterstring describes the position of the next * in the string.</p>
+
+<pre>http://mungo.hyperverses.com/15</pre>
+
+
+<p>Returns:</p>
+
+<pre>*3*5*7*9*12*15*</pre>
+
+
+<p><em>Many thanks to James Bach for <a href="http://www.satisfice.com/tools.shtml">perlclip</a>, which introduced me to counterstrings, and was the primary inspiration for mungo.</em></p>
+
 <h3>String Multiplying</h3>
 
 <p>If you pass mungo a number, <em>x</em>, followed by a string, mungo will multiply that string <em>x</em> times.</p>
@@ -341,5 +357,9 @@ sup {
 hawkhawkhawk
 </pre>
 
+
+<h2>Open Source</h2>
+
+<p>If you want to host your own mungo, <a href="http://github.com/pfhawkins/mungo">here is the mungo github repository</a>.</p>
 </body>
 </html>
