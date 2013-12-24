@@ -12,7 +12,7 @@ get '/all' do
   "#{all}"
 end
 
-get '/count/*' do |target|
+get '/:num' do |target|
   @target = target.to_i
   @pos = @target
   @text = ""
