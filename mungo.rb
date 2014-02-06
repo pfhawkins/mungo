@@ -12,7 +12,7 @@ get '/all' do
   "#{all}"
 end
 
-before '/:num/' do
+before '/:num' do
   content_type 'text/plain'
 end
 
