@@ -12,6 +12,10 @@ get '/all' do
   "#{all}"
 end
 
+before '/:num/' do
+  content_type 'text/plain'
+end
+
 get '/:num' do |target|
   @target = target.to_i
   @pos = @target
@@ -38,6 +42,10 @@ get '/:num' do |target|
   end
   "#{@text}"
   
+end
+
+before '/:num/*' do
+  content_type 'text/plain'
 end
 
 get '/:num/*' do |num, word|
